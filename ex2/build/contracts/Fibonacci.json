@@ -1,0 +1,31 @@
+{
+  "contract_name": "Fibonacci",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "position",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculate",
+      "outputs": [
+        {
+          "name": "result",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "payable": false,
+      "type": "fallback"
+    }
+  ],
+  "unlinked_binary": "0x606060405234610000575b60b4806100186000396000f3006060604052361560235763ffffffff60e060020a600035041663b9d92de881146032575b3460005760305b6000565b565b005b34600057603f6004356051565b60408051918252519081900360200190f35b6000811580605f5750816001145b15606a575060016082565b6074600283036051565b607e600184036051565b0190505b5b9190505600a165627a7a72305820c4c78e2e69966b71b30bd3b935d9cafd1edf3b87b094b7c5e7bed6d7afc69ac10029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1506037222405
+}
